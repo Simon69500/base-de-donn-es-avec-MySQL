@@ -22,21 +22,21 @@ L'objectif est de gérer les focaccias, les ingrédients, les boissons et les ma
 git clone https://github.com/Simon69500/Tifosi_BDD.git
 ```
 2. Se placer dans le dossier du projet :
-   ```bash
-   cd Tifosi_BDD
-  ```
+ ```bash
+ cd Tifosi_BDD
+ ```
 3. Importer le script de création de la base de données dans MySQL :
-     ```bash
-   source create_schema.sql;
-  ```
+ ```bash
+ source create_schema.sql;
+ ```
 4. Importer les données de test :
-    ```bash
-   source insert_data.sql;
-  ```
+```bash
+source insert_data.sql;
+```
 5. Exécuter le script de vérification pour tester les requêtes :
-    ```bash
-   source requetes_test.sql;
-  ```
+```bash
+source requetes_test.sql;
+```
 
 ## Contenu du dépôt
 - create_schema.sql : script de création du schéma de la base de données
